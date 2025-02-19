@@ -1,10 +1,10 @@
 # The Geolocation Radar
-<p align="left">
+<div align="center">
   <img src="https://github.com/user-attachments/assets/6ffc6bc3-a894-4891-a50f-1faf41c5992f" width="40%">
   <img src="https://github.com/user-attachments/assets/47f4d448-bc84-4cbc-8562-4753542f0776" width="40%">
   <img src="https://github.com/user-attachments/assets/5b395af1-184f-49cd-bbfc-8fe543a4b20b" width="40%">
   <img src="https://github.com/user-attachments/assets/55a06acf-33d7-4405-8224-224113c36a78" width="40%">
-</p>
+</div>
 
 ## Overview
 
@@ -20,10 +20,13 @@ The Geolocation Radar is a simple tool for highlighting specific colors in satel
 
 
 ## Download
-**Windows** | [GR_Windows.zip](https://github.com/thewitnesshub/geo_radar/releases/download/v1.0.0/GR_Windows.zip) |
 
+| Platform  | Download Link                                                                                               |
+|-----------|-------------------------------------------------------------------------------------------------------------|
+| **Windows** | [GR_Windows.zip](https://github.com/thewitnesshub/geo_radar/releases/download/v1.0.0/GR_Windows.zip) |
+| **macOS**   | [GR_Mac.zip](https://github.com/thewitnesshub/geo_radar/releases/download/v1.0.0/GR_Mac.zip)           |
 
-**macOS** | [GR_Mac.zip](https://github.com/thewitnesshub/geo_radar/releases/download/v1.0.0/GR_Mac.zip) |
+---
 
 
 ## Setup
