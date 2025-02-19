@@ -31,59 +31,54 @@ The Geolocation Radar is a simple tool for highlighting specific colors in satel
 <details>
   <summary><b>Windows</b> Installation</summary>
 
-1. Download & install OBS-Studio from [obsproject.com](https://obsproject.com/).
-
-2. Download `GR-Windows.zip` from above ⬆️.
-
-3. Extract the ZIP file.
-
-4. Copy the contents of the `LUTs` folder to:
+1. Download and install OBS Studio from [obsproject.com](https://obsproject.com/).
+2. Download `GR-Windows.zip` from above and unzip it.
+3. Copy the files from the `LUTs` folder into OBS’s LUT folder:
    ```
    C:\Program Files\obs-studio\data\obs-plugins\obs-filters\LUTs
    ```
-   
-5. Open OBS, then go to **Scene Collection > Import** and select `Geolocation_Radar.json`.
+- If OBS is installed somewhere else (for example, on E:\), find the correct LUT folder, copy the files there, and you’ll need to manually apply the LUTs in step 7.
+4. In OBS, go to **Scene Collection > Import** and select `Geolocation_Radar.json`.
+5. In **Scene Collection**, select **Geolocation Radar**.
+6. In the **Sources** panel, double-click **Original Source** (or right-click and choose **Properties**) and select the window you want to capture.
+*Tip: Make sure the window is open, or it won’t appear in the list.*
 
-6. Go back to **Scene Collection** and select **Geolocation Radar**.
+7. If the LUTs aren’t automatically detected, manually apply them for each color scene (red, green, blue):
+- Right-click the scene (e.g., **red**) and choose **Filters**.
+- Click **Apply LUT**, then click **Browse**.
+- Navigate to the `LUTs` folder inside the extracted Geolocation Radar folder and select the matching `.png` file (for example, `red-isolated.png` for the red scene).
 
-#### Start the stream
+#### Start the Stream
 
-1. Locate the `Sources` panel at the bottom.
-
-2. Double-click on `Original Source` or right-click and select **Properties**.
-
-3. Choose the desired window from the `Window` dropdown menu. 
- 
-   *Tip:* Ensure the window you want to capture is already open; otherwise, it won’t appear in the list.
+1. In OBS, go to the **Sources** panel.
+2. Double-click **Original Source** (or right-click and select **Properties**).
+3. Choose the window or application you want to capture from the dropdown.
+   - *Tip:* Make sure the window is open before you start, or it won’t show up in the list.
 
 -- Happy geolocating! 🌍
+</details>
+
 
 </details>
-<br>
 <details>
 <summary><b>macOS</b> Installation</summary>
 
 1. Download and install OBS Studio from [obsproject.com](https://obsproject.com/).
-
-2. Download `GR-Mac.zip` and extract it.
-
-3. Move the extracted folder to a conventient location, such as your **Documents** folder.  
-   *(Important: If you change its location after setting up filters in OBS, you'll need to reapply them.)*
-
-4. Open OBS, go to **Scene Collection > Import**, and select `Geolocation_Radar.json`.
-
+2. Download `GR-Mac.zip` from above and unzip it.
+3. Move the unzipped folder to an easy-to-find spot, like your **Documents** folder.  
+*(Important: If you move it later, you'll need to reapply the LUT filters in OBS.)*
+4. In OBS, go to **Scene Collection > Import** and select `Geolocation_Radar.json`.
 5. Go back to **Scene Collection** and select **Geolocation Radar**.
-
 6. In the **Sources** panel below, double-click **Original Source** (or right-click and select **Properties**).
-
 7. Under **Method**, choose **Window Capture** if it's not already selected and choose the desired application from the list (ensure it’s open).
-
 8. For each color scene (red, green, blue):
    - Right-click the scene and choose **Filters**.
    - Click **Apply LUT**.
     - Browse to the `LUTs` subfolder inside the extracted Geolocation Radar folder and select the corresponding `.png` file (e.g., `red-isolated.png` for the red scene).
 
 -- Happy geolocating! 🌍
+</details>
+
 
 </details>
 
@@ -99,7 +94,6 @@ The Geolocation Radar is a simple tool for highlighting specific colors in satel
    - **Red / Green / Blue** → View the image with only the **selected color** visible.
 
 </details>
-<br>
 <details>
   <summary>Open a Windowed Preview 🖥️</summary>
    <br>
@@ -112,7 +106,6 @@ The Geolocation Radar is a simple tool for highlighting specific colors in satel
 - Turn off **"Enabled Preview"** (this prevents OBS from running two previews at once).
 
 </details>
-<br>
 <details>
   <summary>Keep the Preview Window Always on Top 📌</summary>
    <br>
@@ -122,7 +115,7 @@ The Geolocation Radar is a simple tool for highlighting specific colors in satel
 
 </details>
 
-## FAQ
+## Troubleshooting
 
 <details>
   <summary>Stream looks blurry</summary>
@@ -141,7 +134,6 @@ By default, the resolution is set to **1920x1080**, which might look blurry on h
 If the changes don’t apply immediately, restart OBS.
 
 </details>
-<br>
 <details>
   <summary>Stream is zoomed in</summary>
   <br>
@@ -159,5 +151,20 @@ If the changes don’t apply immediately, restart OBS.
 
   4. **Repeat for Each Scene:**  
      These changes may need to be applied to each scene individually.
+</details>
+<details> 
+  <summary>The filters are not working/colors are wrong</summary> 
+  <br> 
+  <p align="left">
+  <img src="https://github.com/user-attachments/assets/2dadc9dc-cc80-4d15-ab22-0ce6947b749d" width="40%">
+</p>
+  If the filters aren’t applied correctly or the colors appear off, it typically means that the LUT files (the `.png` files) are missing or have been moved. To resolve this issue for each color scene (red, green, blue), follow these steps:
+  
+  1. **Right-click the scene** (e.g. red) and choose **Filters**. 
+
+  2. Click **Apply LUT**. 
+
+  3. **Browse** to the `LUTs` subfolder inside the extracted Geolocation Radar folder (or wherever you moved them) and select the corresponding `.png` file (for example, `red-isolated.png` for the red scene). 
+     Repeat these steps for each color scene to ensure the correct LUT is applied. 
 </details>
 
