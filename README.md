@@ -20,10 +20,10 @@ The Geolocation Radar is a simple tool for highlighting specific colors in satel
 
 
 ## Download
-**Windows** | [GR_Windows.zip](https://github.com/Thegodfathercreamcat/geolocation_radar/releases/download/v1.0.0/GR_Windows.zip) |
+**Windows** | [GR_Windows.zip](https://github.com/thewitnesshub/geo_radar/releases/download/v1.0.0/GR_Windows.zip) |
 
 
-**macOS** | [GR_Mac.zip](https://github.com/Thegodfathercreamcat/geolocation_radar/releases/download/v1.0.0/GR_Mac.zip) |
+**macOS** | [GR_Mac.zip](https://github.com/thewitnesshub/geo_radar/releases/download/v1.0.0/GR_Mac.zip) |
 
 
 ## Setup
