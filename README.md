@@ -59,7 +59,6 @@ The Geolocation Radar is a simple tool for highlighting specific colors in satel
 -- Happy geolocating! 🌍
 
 </details>
-<br>
 <details>
 <summary><b>macOS</b> Installation</summary>
 
@@ -99,7 +98,6 @@ The Geolocation Radar is a simple tool for highlighting specific colors in satel
    - **Red / Green / Blue** → View the image with only the **selected color** visible.
 
 </details>
-<br>
 <details>
   <summary>Open a Windowed Preview 🖥️</summary>
    <br>
@@ -112,7 +110,6 @@ The Geolocation Radar is a simple tool for highlighting specific colors in satel
 - Turn off **"Enabled Preview"** (this prevents OBS from running two previews at once).
 
 </details>
-<br>
 <details>
   <summary>Keep the Preview Window Always on Top 📌</summary>
    <br>
@@ -122,7 +119,7 @@ The Geolocation Radar is a simple tool for highlighting specific colors in satel
 
 </details>
 
-## FAQ
+## Troubleshooting
 
 <details>
   <summary>Stream looks blurry</summary>
@@ -141,7 +138,6 @@ By default, the resolution is set to **1920x1080**, which might look blurry on h
 If the changes don’t apply immediately, restart OBS.
 
 </details>
-<br>
 <details>
   <summary>Stream is zoomed in</summary>
   <br>
@@ -159,5 +155,20 @@ If the changes don’t apply immediately, restart OBS.
 
   4. **Repeat for Each Scene:**  
      These changes may need to be applied to each scene individually.
+</details>
+<details> 
+  <summary>The filters are not working/colors are wrong</summary> 
+  <br> 
+  <p align="left">
+  <img src="https://github.com/user-attachments/assets/2dadc9dc-cc80-4d15-ab22-0ce6947b749d" width="40%">
+</p>
+  If the filters aren’t applied correctly or the colors appear off, it typically means that the LUT files (the `.png` files) are missing or have been moved. To resolve this issue for each color scene (red, green, blue), follow these steps:
+  
+  1. **Right-click the scene** (e.g. red) and choose **Filters**. 
+
+  2. Click **Apply LUT**. 
+
+  3. **Browse** to the `LUTs` subfolder inside the extracted Geolocation Radar folder (or wherever you moved them) and select the corresponding `.png` file (for example, `red-isolated.png` for the red scene). 
+     Repeat these steps for each color scene to ensure the correct LUT is applied. 
 </details>
 
