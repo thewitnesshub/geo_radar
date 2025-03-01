@@ -156,6 +156,16 @@ If the changes don’t apply immediately, restart OBS.
      These changes may need to be applied to each scene individually.
 </details>
 <details> 
+  <summary>Stream appears small and zoomed out</summary> 
+  <br>
+
+If your stream appears too small or zoomed out, follow these steps to correct the issue:
+
+1. **Right-click** on **"Original Source"** in the Sources panel.
+2. Select **"Resize output (source size)"**.
+This will adjust the output resolution to match the source, ensuring the image fills the screen properly.
+</details>
+<details> 
   <summary>The filters are not working/colors are wrong</summary> 
   <br> 
   <p align="left">
