@@ -120,6 +120,9 @@ The Geolocation Radar is a simple tool for highlighting specific colors in satel
 
 ## Troubleshooting
 
+In this section, I've listed some common issues with simple fixes to help you set up a proper stream. However, I won’t be able to provide further assistance if the issue is related to OBS itself rather than the filters. If you need additional help, I recommend checking the official OBS Knowledge Base. [OBS Knowledge Base](https://obsproject.com/kb).
+
+
 <details>
   <summary>Stream looks blurry</summary>
    <br>
